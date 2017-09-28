@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         ImgurGo
-// @namespace    https://github.com/badhaloninja/Userscrips
-// @version      0.1
+// @namespace    badhaloninja_ImgurGo
+// @website      https://github.com/badhaloninja/Userscrips
+// @version      0.2
+// @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/ImgurGo.user.js
 // @description  Bypasses imgur weblock by using duckduckgo
 // @author       badhaloninja
 // @match        http://*/*
