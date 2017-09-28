@@ -2,7 +2,9 @@
 // @name         ImgurGo
 // @namespace    badhaloninja_ImgurGo
 // @website      https://github.com/badhaloninja/Userscrips
-// @version      0.2
+// @icon         https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
+// @icon64       https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
+// @version      0.3
 // @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/ImgurGo.user.js
 // @description  Bypasses imgur weblock by using duckduckgo
 // @author       badhaloninja
