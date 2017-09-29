@@ -5,7 +5,7 @@
 // @icon         https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
 // @icon64       https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
 // @version      0.2
-// @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/ImgurGo.user.js
+// @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/GravatarGo.user.js
 // @description  Bypasses gravatar weblock by using duckduckgo
 // @author       badhaloninja
 // @match        http://*/*
