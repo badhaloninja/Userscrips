@@ -17,7 +17,7 @@
 $("img").each(function(ignore, e) {
     var $e = $(e);
     if ($e.attr("src").startsWith("http://www.gravatar.com/")) {
-        $e.attr("src", "https://images.duckduckgo.com/iu/?u=" + $e.attr("src").replaceAll(("(\\?.*|\\#.*)"), "").replace("http", "https") + ".png");
+        $e.attr("src", "https://images.duckduckgo.com/iu/?u=" + $e.attr("src").replaceAll(("(\\?.*|\\#.*)"), "") + ".png");
     }
     if ($e.attr("src").startsWith("www.gravatar.com/")) {
         $e.attr("src", "https://images.duckduckgo.com/iu/?u=" + $e.attr("src").replaceAll(("(\\?.*|\\#.*)"), "") + ".png");
