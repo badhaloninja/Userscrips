@@ -24,6 +24,6 @@ $("img").each(function(ignore, e) {
 //    if ($e.attr("src").endsWith(".png")) {
     if ($e.attr("src").startsWith("https://")) {
         $e.attr("src", "https://images.duckduckgo.com/iu/?u=" + $e.attr("src"));
-    }
-});
+
+    }}});
 })();
