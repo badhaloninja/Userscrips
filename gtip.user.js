@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         GbaTemp to IP
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
-// @author       You
+// @namespace    badhaloninja_gtip
+// @website      https://github.com/badhaloninja/Userscrips
+// @icon         https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
+// @icon64       https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
+// @version      0.3
+// @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/gtip.user.js
+// @description  Bypasses gbatemp weblock by using ip adress
+// @author       badhaloninja
 // @match        http://*/*
 // @grant        none
 // ==/UserScript==
