@@ -4,7 +4,7 @@
 // @icon64      https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
 // @author      badhaloninja
 // @updateURL   https://github.com/badhaloninja/Userscrips/raw/master/GDL.user.js
-// @version     5.1
+// @version     5.2
 // @grant       GM_addStyle
 // @grant       GM_getValue
 // @grant       GM_setValue
@@ -16,8 +16,8 @@
 // @name        Google: Direct Links
 // @description Show direct links to web pages and images for google result.
 // ==/UserScript==
-
-document.addEventListener('DOMContentLoaded', function () {
+unsafeWindow.GDL = GDL;
+document.addEventListener('DOMContentLoaded', function GDL() {
   GM_addStyle('a.x_source_link {' + [
     'line-height: 1.0',  // increment the number for a taller thumbnail info-bar
     'text-decoration: none !important',
