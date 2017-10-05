@@ -16,7 +16,7 @@
 // @name        Google: Direct Links
 // @description Show direct links to web pages and images for google result.
 // ==/UserScript==
-unsafeWindow.GDL = document.addEventListener('DOMContentLoaded', function GDL() {
+document.addEventListener('DOMContentLoaded', function () {
   GM_addStyle('a.x_source_link {' + [
     'line-height: 1.0',  // increment the number for a taller thumbnail info-bar
     'text-decoration: none !important',
