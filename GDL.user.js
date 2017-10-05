@@ -1,5 +1,9 @@
 // ==UserScript==
 // @namespace   badhaloninja_GDL
+// @icon        https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
+// @icon64      https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
+// @author      badhaloninja
+// @updateURL   https://github.com/badhaloninja/Userscrips/raw/master/GDL.user.js
 // @version     5.1
 // @grant       GM_addStyle
 // @grant       GM_getValue
