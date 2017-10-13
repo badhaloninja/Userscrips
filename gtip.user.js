@@ -4,11 +4,12 @@
 // @website      https://github.com/badhaloninja/Userscrips
 // @icon         https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
 // @icon64       https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
-// @version      0.3
+// @version      0.4
 // @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/gtip.user.js
 // @description  Bypasses gbatemp weblock by using ip adress
 // @author       badhaloninja
 // @match        http://*/*
+// @match        https://*/*
 // @grant        none
 // ==/UserScript==
 
