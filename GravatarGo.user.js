@@ -4,7 +4,7 @@
 // @website      https://github.com/badhaloninja/Userscrips
 // @icon         https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
 // @icon64       https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
-// @version      0.6
+// @version      0.7
 // @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/GravatarGo.user.js
 // @description  Bypasses gravatar weblock by using duckduckgo
 // @author       badhaloninja
@@ -19,7 +19,7 @@ $("img").each(function(ignore, e) {
     if ($e.attr("src").startsWith("http://www.gravatar.com/")) {
         $e.attr("src", "https://images.duckduckgo.com/iu/?u=" + $e.attr("src").replace(/(\?.*)|(#.*)/g, "") + ".png");
     }
-    if ($e.attr("src").startsWith("www.gravatar.com/")) {
+    if ($e.attr("src").startsWith("https://www.gravatar.com/")) {
         $e.attr("src", "https://images.duckduckgo.com/iu/?u=" + $e.attr("src").replace(/(\?.*)|(#.*)/g, "") + ".png");
     }
 });
