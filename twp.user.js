@@ -24,5 +24,5 @@ for (var i=0;i<links.snapshotLength;i++) {
     var thisLink = links.snapshotItem(i);
 
     thisLink.href = thisLink.href.replace('forums.thinkingwithportals.com',
-                                          'http://forums.thinking.withportals.com');
+                                          'forums.thinking.withportals.com');
 }
