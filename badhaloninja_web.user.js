@@ -1,8 +1,12 @@
 // ==UserScript==
 // @name          Web badhaloninja
-// @namespace     https://youtube.com/user/badhaloninja
+// @namespace     badhaloninja_web
+// @website       https://github.com/badhaloninja/Userscrips
+// @icon          https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
+// @icon64        https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
+// @updateURL     https://github.com/badhaloninja/Userscrips/raw/master/badhaloninja_web.user.js
 // @grant         open    
-// @description   https://github.com/badhaloninja/Themes
+// @description   My website themes
 // @author        badhaloninja
 // @homepage      https://youtube.com/user/badhaloninja
 // @include       http://youtube.com/*
@@ -18,7 +22,7 @@
 // @include       http://*.reddit.com/*
 // @include       https://*.reddit.com/*
 // @run-at        document-start
-// @version       0.32
+// @version       0.33
 // ==/UserScript==
 (function() {var css = "";
 if (false || (document. DOMAIN == "youtube.com" || document.domain.substring(document.domain.indexOf(".youtube.com") + 1) == "youtube.com") || (document.location.href.indexOf("https://plus.googleapis.com/") == 0) || (document.location.href.indexOf("https://youtube.com/") == 0) || (document.location.href.indexOf("https://apis.google.com/") == 0) || (document.location.href.indexOf("http://youtube.com/") == 0))
