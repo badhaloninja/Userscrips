@@ -4,7 +4,7 @@
 // @website      https://github.com/badhaloninja/Userscrips
 // @icon         https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon.png
 // @icon64       https://raw.githubusercontent.com/badhaloninja/Userscrips/master/Icons/icon64.png
-// @version      0.4
+// @version      0.5
 // @updateURL    https://github.com/badhaloninja/Userscrips/raw/master/twp.user.js
 // @description  Fixes links to forums.thinking.withportals.com
 // @author       badhaloninja
